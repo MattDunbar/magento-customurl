@@ -1,0 +1,27 @@
+<config>
+    <modules>
+        <Mdunbar_Customurl>
+            <version>1.0.0</version>
+        </Mdunbar_Customurl>
+    </modules>
+    <global>
+        <models>
+            <customurl>
+                <class>Mdunbar_Customurl_Model</class>
+            </customurl>
+        </models>
+    </global>
+    <frontend>
+        <events>
+            <catalog_controller_product_init>
+                <observers>
+                    <customurl>
+                        <type>singleton</type>
+                        <class>customurl/observer</class>
+                        <method>catalog_controller_product_init</method>
+                    </customurl>
+                </observers>
+            </catalog_controller_product_init>
+        </events>
+    </frontend>
+</config>

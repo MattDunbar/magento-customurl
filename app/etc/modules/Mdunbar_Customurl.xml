@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mdunbar_Customurl>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Mdunbar_Customurl>
+    </modules>
+</config>
